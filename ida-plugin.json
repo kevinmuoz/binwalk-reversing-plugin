@@ -1,0 +1,30 @@
+{
+  "IDAMetadataDescriptorVersion": 1,
+  "plugin": {
+    "name": "Binwalk",
+    "entryPoint": "ida.py",
+    "version": "0.0.1",
+    "idaVersions": ">=9",
+    "description": "Embedded file detection and extraction for firmware and binary images.",
+    "license": "Apache 2.0",
+    "logoPath": "images/binwalk_ida_pro.jpg",
+    "categories": [
+      "ui-ux-and-visualization",
+      "integration-with-third-parties-interoperability"
+    ],
+    "keywords": [
+      "binwalk",
+      "firmware analysis",
+      "embedded file extraction",
+      "binary analysis"
+    ],
+    "pythonDependencies": ["pybinwalk"],
+    "urls": {
+      "repository": "https://github.com/kevinmuoz/binwalk-reversing-plugin"
+    },
+    "authors": [{
+      "name": "Kevin Muñoz",
+      "email": "km9530802@gmail.com"
+    }]
+  }
+}
