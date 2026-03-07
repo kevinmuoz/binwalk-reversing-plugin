@@ -3,7 +3,7 @@
   "plugin": {
     "name": "Binwalk",
     "entryPoint": "ida.py",
-    "version": "0.0.2",
+    "version": "0.0.1",
     "idaVersions": ">=9",
     "description": "Embedded file detection and extraction for firmware and binary images.",
     "license": "Apache 2.0",
